@@ -329,20 +329,28 @@
         </div>
     </section>
     <!-- Blog/Updates Section -->
+    <!-- BLOG SUBSCRIPTION FORM (Formspree) -->
     <section id="blog" class="section">
-        <h2 class="section-title">Blog & Updates</h2>
-        <div class="blog-container">
-            <div class="blog-search-filter" style="display: flex; justify-content: center; gap: 1rem; margin-bottom: 2rem; flex-wrap: wrap;">
-                <input type="text" id="blog-search" placeholder="Search blog posts..." style="padding: 10px 15px; border: 1px solid #ddd; border-radius: 25px; font-size: 1rem; flex-grow: 1; max-width: 400px;">
-                <select id="blog-category-filter" style="padding: 10px 15px; border: 1px solid #ddd; border-radius: 25px; font-size: 1rem;">
-                    <option value="all">All Categories</option>
-                </select>
-                <select id="blog-tag-filter" style="padding: 10px 15px; border: 1px solid #ddd; border-radius: 25px; font-size: 1rem;">
-                    <option value="all">All Tags</option>
-                </select>
-            </div>
-            <div id="blog-posts-grid" class="projects-grid"></div>
+      <h2 class="section-title">Blog & Updates</h2>
+      <div class="blog-container">
+        <div class="blog-search-filter" style="display: flex; justify-content: center; gap: 1rem; margin-bottom: 2rem; flex-wrap: wrap;">
+          <input type="text" id="blog-search" placeholder="Search blog posts..." style="padding: 10px 15px; border: 1px solid #ddd; border-radius: 25px; font-size: 1rem; flex-grow: 1; max-width: 400px;">
+          <select id="blog-category-filter" style="padding: 10px 15px; border: 1px solid #ddd; border-radius: 25px; font-size: 1rem;">
+            <option value="all">All Categories</option>
+          </select>
+          <select id="blog-tag-filter" style="padding: 10px 15px; border: 1px solid #ddd; border-radius: 25px; font-size: 1rem;">
+            <option value="all">All Tags</option>
+          </select>
         </div>
+        <div id="blog-posts-grid" class="projects-grid"></div>
+      </div>
+      <div style="text-align: center; margin-top: 4rem;">
+        <h3 style="font-size: 1.8rem; margin-bottom: 1rem;">📬 Subscribe for Blog Updates</h3>
+        <form action="https://formspree.io/f/YOUR_ID" method="POST" style="max-width: 400px; margin: 0 auto;">
+          <input type="email" name="email" placeholder="Enter your email" required style="padding: 12px; width: 100%; border-radius: 25px; border: 1px solid #ccc; margin-bottom: 1rem;">
+          <button type="submit" class="btn btn-primary" style="width: 100%;">Subscribe</button>
+        </form>
+      </div>
     </section>
     <!-- Contact Section -->
     <section id="contact" class="section">
