@@ -1,0 +1,50 @@
+[
+    {
+        "title": "IISc-ICASSP Fellowship Award",
+        "date": "2025-01-15",
+        "content": "Honored to be selected as an IISc-ICASSP Fellowship Recipient for 2025. Looking forward to working on matrix estimation techniques at IISc Bangalore.",
+        "link": null
+    },
+    {
+        "title": "CSIR NET JRF Qualification",
+        "date": "2023-12-20",
+        "content": "Successfully qualified CSIR NET JRF with All India Rank: 121. This achievement marks a significant milestone in my academic journey.",
+        "link": null
+    },
+    {
+        "title": "Research Paper in Progress",
+        "date": "2024-03-01",
+        "content": "Currently preparing a research paper on coherence reduction techniques in sparse modeling for submission to IEEE Transactions on Signal Processing.",
+        "link": null
+    },
+    {
+        "title": "Academic Excellence Award",
+        "date": "2021-09-15",
+        "content": "Received the Department Gold Medal for Outstanding Academic Performance and Excellence in Mathematics at RKMVERI.",
+        "link": null
+    },
+    {
+        "title": "Professional Development",
+        "date": "2023-03-15",
+        "content": "Participated in the Teacher's Enrichment Workshop at RKMVCC, enhancing teaching and communication skills.",
+        "link": null
+    },
+    {
+        "title": "Getting Started with Machine Learning",
+        "date": "2024-03-15",
+        "content": "An introduction to machine learning concepts and practical applications. Learn about the fundamental algorithms and tools used in modern ML projects.",
+        "link": "https://yourblog.com/ml-intro"
+    },
+    {
+        "title": "Web Development Best Practices",
+        "date": "2024-03-10",
+        "content": "Explore the latest web development practices and techniques for building modern, responsive websites. Tips and tricks for better performance and user experience.",
+        "link": "https://yourblog.com/web-dev-best-practices"
+    },
+    {
+        "title": "Data Visualization with Python",
+        "date": "2024-03-05",
+        "content": "A comprehensive guide to creating beautiful and informative data visualizations using Python libraries like Matplotlib and Seaborn.",
+        "link": "https://yourblog.com/python-data-viz"
+    }
+] 

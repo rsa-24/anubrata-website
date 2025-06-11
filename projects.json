@@ -1,0 +1,75 @@
+[
+    {
+        "title": "Master's Thesis: Coherence Reduction in Sparse Modeling",
+        "description": "Developed novel methodologies for coherence reduction in sparse signal recovery problems. Investigated applications of Hadamard transforms in improving reconstruction accuracy.",
+        "tags": ["Sparse Modeling", "Signal Processing", "Research"],
+        "status": "Ongoing",
+        "duration": "Jul 2024 – May 2025",
+        "link": null
+    },
+    {
+        "title": "Matrix Estimation Through Matrix-Vector-Multiplication",
+        "description": "Working on matrix estimation techniques using efficient computational approaches as part of IISc-ICASSP Fellowship.",
+        "tags": ["Matrix Estimation", "Computational Mathematics", "Research"],
+        "status": "Ongoing",
+        "duration": "Apr 2025 – May 2025",
+        "link": null
+    },
+    {
+        "title": "Text Summarization Project",
+        "description": "Developed sequence-to-sequence models with attention mechanisms for automatic text summarization. Implemented and compared PEGASUS, BART, GPT-2, and T5 models on CNN/DailyMail and Samsung datasets.",
+        "tags": ["NLP", "Deep Learning", "Python"],
+        "status": "Completed",
+        "duration": "Feb 2024 – Apr 2024",
+        "link": null
+    },
+    {
+        "title": "Phoenix Skyways Airline Passenger Analysis",
+        "description": "Analyzed factors influencing passenger satisfaction using survey data and flight information. Developed predictive models to classify passenger satisfaction levels and provided strategic recommendations.",
+        "tags": ["Data Analysis", "Machine Learning", "Business Analytics"],
+        "status": "Completed",
+        "duration": "Jan 2024 – May 2024",
+        "link": null
+    },
+    {
+        "title": "IPL Insights (2008-22)",
+        "description": "Designed comprehensive database system for IPL cricket data with CSV preprocessing. Developed interactive dashboard with role-based access and data visualization tools for strategic team management insights.",
+        "tags": ["Data Engineering", "Visualization", "Database Design"],
+        "status": "Completed",
+        "duration": "Sep 2023 – Nov 2023",
+        "link": null
+    },
+    {
+        "title": "Heart Attack Risk Prediction",
+        "description": "Implemented machine learning classification models for cardiovascular risk assessment. Predicted heart attack risk using health and lifestyle factors through data cleanup, exploration, and machine learning.",
+        "tags": ["Machine Learning", "Healthcare Analytics", "Classification"],
+        "status": "Completed",
+        "duration": "Oct 2023 – Nov 2023",
+        "link": null
+    },
+    {
+        "title": "Primality Testing in Cryptography",
+        "description": "Conducted theoretical analysis of deterministic and probabilistic primality testing algorithms including Miller-Rabin and AKS. Investigated computational complexity trade-offs and security implications in RSA cryptographic implementations.",
+        "tags": ["Cryptography", "Mathematics", "Research"],
+        "status": "Completed",
+        "duration": "Feb 2021 – May 2021",
+        "link": null
+    },
+    {
+        "type": "publication-tracker",
+        "publications": [
+            {
+                "title": "Conference Attendance: IEEE ICASSP 2025",
+                "status": "Attended",
+                "date": "2025",
+                "note": "Attended as IISc-ICASSP Fellowship Recipient"
+            },
+            {
+                "title": "Paper: Coherence Reduction Techniques in Sparse Modeling",
+                "status": "Under Preparation",
+                "date": "2024–2025",
+                "note": "Target: IEEE Transactions on Signal Processing"
+            }
+        ]
+    }
+] 
