@@ -512,45 +512,29 @@
     
       <div style="text-align: center; margin-top: 4rem;">
         <h3 style="font-size: 1.8rem; margin-bottom: 1rem;">📬 Subscribe for Blog Updates</h3>
-    
-        <!-- ✅ FORM ID added -->
-        <form id="subscribe-form" action="https://formspree.io/f/xdkzggzg" method="POST"
-          <input type="email" name="email" placeholder="Enter your email" required style="padding: 12px; width: 100%; border-radius: 25px; border: 1px solid #ccc; margin-bottom: 1rem;">
-          <button type="submit" class="btn btn-primary" style="width: 100%;">Subscribe</button>
+        <form id="subscribe-form" action="https://formspree.io/f/xdkzggzg" method="POST" style="max-width: 400px; margin: 0 auto;">
+          <input 
+            type="email" 
+            name="email" 
+            placeholder="Enter your email" 
+            required 
+            style="padding: 12px; width: 100%; border-radius: 25px; border: 1px solid #ccc; margin-bottom: 1rem;">
+            
+          <button 
+            type="submit" 
+            class="btn btn-primary" 
+            style="width: 100%;">
+            Subscribe
+          </button>
         </form>
-    
+        
         <!-- ✅ Thank you message placeholder -->
         <div id="thank-you-message" style="display: none; text-align: center; margin-top: 1rem; color: green; font-weight: bold;">
           ✅ Thank you for subscribing! You'll get updates in your inbox.
         </div>
-      </div>
+    
     </section>
     
-    <!-- ✅ JavaScript to handle thank-you message -->
-    <script>
-      const form = document.getElementById('subscribe-form');
-      const thankYou = document.getElementById('thank-you-message');
-    
-      form.addEventListener('submit', async function (e) {
-        e.preventDefault();
-    
-        const formData = new FormData(form);
-        const response = await fetch(form.action, {
-          method: form.method,
-          body: formData,
-          headers: { 'Accept': 'application/json' }
-        });
-    
-        if (response.ok) {
-          form.style.display = 'none';
-          thankYou.style.display = 'block';
-        } else {
-          alert("Something went wrong. Please try again later.");
-        }
-      });
-    </script>
-
-
     <!-- Contact Section -->
     <section id="contact" class="section">
         <h2 class="section-title">Contact & Connect</h2>
