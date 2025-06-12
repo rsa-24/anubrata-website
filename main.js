@@ -328,6 +328,37 @@ document.addEventListener('DOMContentLoaded', () => {
     renderBatchPhoto();
     renderSkills();
 
+    // Handle Blog Subscription Form (Formspree)
+    const subscribeForm = document.getElementById('subscribe-form');
+    if (subscribeForm) {
+        subscribeForm.addEventListener('submit', async function (e) {
+            e.preventDefault();
+            const formData = new FormData(subscribeForm);
+            try {
+                const response = await fetch(subscribeForm.action, {
+                    method: 'POST',
+                    body: formData,
+                    headers: { 'Accept': 'application/json' }
+                });
+
+                if (response.ok) {
+                    subscribeForm.reset();
+                    document.getElementById('thank-you-message').style.display = 'block';
+                    setTimeout(() => {
+                        document.getElementById('thank-you-message').style.display = 'none';
+                    }, 6000);
+                } else {
+                    alert('There was a problem subscribing. Please try again later.');
+                }
+            } catch (error) {
+                console.error('Subscription error:', error);
+                alert('An error occurred. Please check your connection or try again.');
+            }
+        });
+    }
+});
+
+
     // Password-protected resume download
     const resumeBtn = document.getElementById('view-resume-btn');
     if (resumeBtn) {
